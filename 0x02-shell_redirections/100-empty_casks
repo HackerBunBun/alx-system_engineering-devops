@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty -pritnntf '%f\n'
+cat /etc/passwd | cut -d: -f1,6 | sort
